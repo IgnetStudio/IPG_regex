@@ -1,0 +1,27 @@
+.container {
+    width: 340px;
+    margin: 40px auto;
+}
+
+.container input,
+.container textarea {
+    display: block;
+    width: 300px;
+    height: 30px;
+    padding: 0 20px;
+    border: 1px #D5D5D5 solid;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font: 14px/1 Tahoma, Arial, sans-serif;
+}
+
+.container textarea {
+    height: 100px;
+    padding: 20px;
+    margin-top: 40px;
+    resize: none;
+    line-height: 20px;
+}
+
+hr {
+    height: 5px;
+}

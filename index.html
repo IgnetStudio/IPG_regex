@@ -15,18 +15,23 @@
 <body>
     <!-- more info: http://regexr.com/ !-->
     <h2>Remove</h2>
+    <p>Wprowadź dowolny tekst z samogłoskami i spółgłoskami.</p>
     <div class="container">
         <input id="input" type="text">
         <textarea id="output"></textarea>
     </div>
     <hr>
     <h2>Exec</h2>
-    <p class="pExec">Lorem ipsum dolor sit amet, anna@kowalska.com consectetur foo@bar.berlin adipisicing elit. Magnam, voluptates eum dolore foo@bar.com non aperiam molestias reprehenderit qui veniam assumenda animi atque tomasz@nowak.pl commodi tenetur eaque nemo foo.bar@test.co.uk reiciendis molestiae optio fuga est!</p>
+    <p class="pExec">Lorem ipsum dolor sit amet, anna@kowalska.com consectetur foo@bar.berlin adipisicing elit. Magnam, voluptates eum dolore
+        foo@bar.com non aperiam molestias reprehenderit qui veniam assumenda animi atque tomasz@nowak.pl commodi tenetur
+        eaque nemo foo.bar@test.co.uk reiciendis molestiae optio fuga est!</p>
     <hr>
     <h2>Test</h2>
     <hr>
     <h2>Match</h2>
-    <p class="pMatch">Lorem ipsum dolor sit amet, anna@kowalska.com consectetur foo@bar.berlin adipisicing elit. Magnam, voluptates eum dolore foo@bar.com non aperiam molestias reprehenderit qui veniam assumenda animi atque tomasz@nowak.pl commodi tenetur eaque nemo foo.bar@test.co.uk reiciendis molestiae optio fuga est!</p>
+    <p class="pMatch">Lorem ipsum dolor sit amet, anna@kowalska.com consectetur foo@bar.berlin adipisicing elit. Magnam, voluptates eum dolore
+        foo@bar.com non aperiam molestias reprehenderit qui veniam assumenda animi atque tomasz@nowak.pl commodi tenetur
+        eaque nemo foo.bar@test.co.uk reiciendis molestiae optio fuga est!</p>
     <hr>
     <h2>Search</h2>
     <hr>
@@ -35,8 +40,19 @@
     <p class="pReplace">Zwykły tekst **a to pogrubiony tekst kapitalikami w markdownie** - tu dalej zwykły tekst i **jeszcze raz**</p>
     <hr>
     <h2>Split</h2>
-    <p class="pSplitFirst">First-  to split</p>
-    <p class="pSplitSecond">Second   -to split</p>
+    <p class="pSplitFirst">First- to split</p>
+    <p class="pSplitSecond">Second -to split</p>
+    <hr>
+    <h2>Tabu</h2>
+    <p>Wprowadź nazwę polskiej partii politycznej lub nazwisko jej lidera.</p>
+    <form id="form" action="#">
+        <div class="inputField">
+            <textarea name="your-message" placeholder="Twoja wiadomość"></textarea>
+        </div>
+        <div class="inputField">
+            <button type="submit">Wyślij</button>
+        </div>
+    </form>
     <script src="js/remove.js"></script>
     <script src="js/exec.js"></script>
     <script src="js/test.js"></script>
@@ -44,6 +60,7 @@
     <script src="js/search.js"></script>
     <script src="js/replace.js"></script>
     <script src="js/split.js"></script>
+    <script src="js/tabu.js"></script>
 </body>
 
 </html>
